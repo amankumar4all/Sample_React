@@ -1,0 +1,223 @@
+.App{
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+a{
+  font-size: 14px;
+  color: azure;
+}
+input{
+  border: 1px solid rgb(165, 143, 143);
+  background-color: rgb(204, 223, 223);
+}
+.header{
+  background: black;
+  position: relative;
+  background-color: rgb(63,190,147);
+  /* #3FBE93 */
+  height: 70px;
+}
+
+.left{
+  position: absolute;
+  float: left;
+  left: 0;
+}
+.header .left .navigation .box1{
+  width: 16px;
+  height: 16px;
+  background: white;
+  opacity: 0.5;
+  border-radius: 5px;
+}
+.header .left .navigation .box2{
+  width: 12px;
+  height: 12px;
+  background: white;
+  /* position: relative; */
+  margin-top: 18px;
+  margin-left: -9px;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+.right{
+  position: absolute;
+  right: 0;
+  /* background-color: rgb(60, 168, 38); */
+}
+.right ul li{
+  display: inline-block;
+  padding:10px;
+  margin:0 10px;
+  /* background-color: red; */
+}
+.left ul li a{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.left ul li{
+  margin-top: 10px;
+}
+ul li a{
+  text-decoration: none;
+}
+.right ul li:hover{
+  background:rgb(4, 145, 98);
+}
+.navigation{
+  display: flex;
+  list-style: none;
+}
+
+
+
+/* Sections */
+section {
+  align-items: center;
+  background: rgb(40,60,68);
+  overflow: hidden;
+  height: 105px;
+}
+.section ul{
+  display: flex;
+  align-items: center;
+  margin:0;
+  margin: auto;
+  width: 80%;
+}
+.section ul li {
+  margin: auto;
+  list-style: none;
+  display: block;
+  /* width: 10%; */
+  text-align: center;
+  overflow: hidden;
+  padding:29px 50px;
+}
+.section ul li a{
+  padding-bottom: 20px;
+  /* text-align: center; */
+  width: 30px;
+  font-size: 13px;
+}
+.section ul li i{
+  width: 100%;
+  align-items: center;
+}
+.section ul li:hover{
+  background: rgb(49,69,78);
+}
+
+
+
+/* Input details */
+body .info{
+  padding: 10px 0;
+}
+.details{
+  display: block;
+  width: 80%;
+  /* border: 1px solid black; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: auto;
+  margin-top: 15px;
+  /* background: yellow; */
+}
+.details .info{
+  margin:0 20px;
+  /* background: red; */
+}
+.details .info ul {
+  list-style: none;
+  display: flex;
+}
+.details .info ul li{
+  width: 33%;
+}
+.details .info ul li .names input{
+  width: 90%;
+  margin-top: 0px;
+}
+.details .info ul li p{
+  margin-bottom: 8px;
+}
+.details ul .choices{
+  margin: 10px 0;
+}
+.details ul .dob{
+  display: flex;
+}
+.details ul .dob input{
+  width: 30%;
+  margin-right: 20px;
+}
+.details .address{
+  flex-wrap: wrap;
+}
+.details .address li {
+  flex:0 50%;
+}
+.details .address li input{
+  width: 70%;
+  height: 20px;
+}
+.details .salary{
+  flex-wrap: wrap;
+}
+.details .salary input{
+  width: 200px;
+  height: 20px;
+}
+.details .salary .negotiable{
+  display: flex;
+  margin-top: 28px;
+}
+.details .salary .negotiable input{
+  margin-top: 18px;
+  margin-left: 10px;
+}
+.details .salary li{
+  margin: 0;
+}
+.details .buttons{
+  text-align: center;
+  padding:100px 0;
+}
+.details .save{
+  width: 300px;
+  background: rgb(63,  190,147);
+  padding: 8px 0;
+}
+.details .save a{
+  color: azure;
+}
+
+footer{
+  text-align: center;
+  background: rgb(40,60,68);
+  margin: 0;
+}
+footer h5{
+  padding: 15px;
+  margin-bottom: 0;
+}
+.buttons ul li a{
+  color: gray;
+  size: 0px;
+}
+.details .buttons ul{
+  display: flex;
+}
+.details .buttons ul .move{
+  width: 20%;
+}
+.details .buttons ul .save{
+  width: 60%;
+}
+
+
+
+
+
